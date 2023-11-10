@@ -1,0 +1,92 @@
+body{
+    font-family: "helvetica";
+    background: linear-gradient(#CEFAFF, #89ECF9)
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    background-image: url(https://hips.hearstapps.com/del.h-cdn.co/assets/18/10/1600x800/landscape-1520445681-delish-keto-bronwies-2.jpg?resize=1200:*);
+    background-position: center;
+    background-size: cover;
+}
+
+#headingimage{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#intro{
+    font-size: 22.5px;
+    margin-right: 350px;
+    margin-left: 200px;
+}
+
+#ingredients{
+    font-size: 22.5px;
+    margin-left: 200px;
+}
+
+#ingredientslist{
+    font-size: 22.5px;
+    margin-left: 200px;
+    margin-right: 500px;
+}
+
+#extra{
+    font-size: 22.5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a{
+    color: #0073E5;
+}
+
+#inbetween{
+    font-size: 22.5px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#steps{
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+
+#first{
+    border-top: #0073E5;
+    border-top-style: solid;
+    padding-top: 80px;
+    border-bottom: #0073E5;    
+    border-bottom-style: solid;
+    padding-bottom: 80px;
+    text-align: center;
+    font-weight: 200;
+    font-size: larger;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+#content{
+    font-weight: 200;
+    text-align: center;
+    border-bottom: #0073E5;
+    border-bottom-style: solid;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    font-size: larger;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+#outro{
+    font-size: 22.5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
