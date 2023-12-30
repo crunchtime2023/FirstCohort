@@ -1,0 +1,20 @@
+#bigbox{
+    border: solid black 5px;
+    padding: 9px;
+}
+
+#littlebox{
+    border: dotted black 5px;
+    padding: 65px;
+    width: 50%;
+}
+
+#longbox{
+    border: dashed black 3px;
+    width: 20%;
+    padding: 3px;
+}
+
+section{
+    margin-top: 10px;
+}

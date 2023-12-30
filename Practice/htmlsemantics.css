@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #efdecd;
+    
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+header ul{
+    list-style-type: none;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+}
+
+li :hover{
+    background-color: #946e44;
+}
+
+header ul{
+    display: flex;
+}
+
+#section1{
+    margin: 25px;
+}
+
+article{
+    width: 60%;
+    padding-right: 60px;
+    padding-left: 140px;
+    text-align: center;
+    float: left;
+}
+
+aside{
+    padding-right: 120px;
+    padding-top: 180px;
+}

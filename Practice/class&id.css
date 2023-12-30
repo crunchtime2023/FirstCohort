@@ -1,0 +1,17 @@
+.style1{
+    background-color: lightblue;
+    font-size: 0.7em;
+    padding: 10px;
+    width: 40%;
+}
+
+.style2{
+    background-color: lightcoral;
+    font-size: 1.2em;
+    width: 75%;
+}
+
+#individual1{
+    background-color: lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
