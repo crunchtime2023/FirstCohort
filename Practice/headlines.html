@@ -1,62 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HTML Headlines</title>
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <style>
-            body{
-                width: 75%;
-                margin: auto;
-                padding: 10px;
-            }
-            ul{
-                list-style-type: none;
-                display: flex;
-                justify-content: flex-end;
-            }
-            a:hover{
-                border-bottom: 1px solid black;
-            }
-            #boxone{
-                text-align: center;
-                background-color: grey;
-                padding: 20px;
-                color: white;
-            }
-            footer{
-                color: white;
-                background-color: black;
-                padding: 20px;
-            }
-            #boxtwo{
-                display: flex;
-                padding: 10px;
-                width: 60%;
-                margin: auto;
-                justify-content: space-around;
-                flex-wrap: wrap;
-            }
-        </style>
+        <link rel="stylesheet" href="headlines.css">
     </head>
     <body>
         <header>
             <h1>Headlines.</h1>
             <nav>
                 <ul>
-                    <li style="padding: 10px 15px;"><a href="#" style="text-decoration: none; color: black;">Home</a></li>
-                    <li style="padding: 10px 15px;"><a href="#" style="text-decoration: none; color: black;">About</a></li>
-                    <li style="padding: 10px 15px;"><a href="#" style="text-decoration: none; color: black;">Blogs</a></li>
-                    <li style="padding: 10px 15px;"><a href="#" style="text-decoration: none; color: black;">Contact Us</a></li>
+                    <li style="padding: 10px 15px;"><a href="./headlines.html" style="border-bottom: solid 1px black;">Home</a></li>
+                    <li style="padding: 10px 15px;"><a href="./about.html">About</a></li>
+                    <li style="padding: 10px 15px;"><a href="#contactus">Contact Us</a></li>
                 </ul>
             </nav>
             <h3>We <span style="color: orange;">collect and curate</span> articles, opinions and images from around the world.</h3>
         </header>
         <main style="background-color: orange;">
-            <section id="boxone">
+            <section class="boxone">
                 <h4>The Bottom Line.</h4>
                 <p>We deliver the news that is relevant to you.</p>
             </section>
-            <section id="boxtwo">
+            <section class="boxtwo">
                 <div>
                     <img src="./Images/Company-Blogs.jpg">
                 </div>
@@ -89,12 +56,14 @@
                 </div>
             </section>
         </main>
-        <footer>
+        <footer id="contactus">
             <h4>Headlines</h4>
             <p>
                 Address<br>
                 Address Address Address<br>
-                123412341234
+                123412341234<br>
+                Myemail@gmail.com<br>
+                +44 7987654321
             </p>
         </footer>
     </body>

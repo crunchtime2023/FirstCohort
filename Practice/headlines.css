@@ -1,0 +1,64 @@
+body{
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    border-bottom: 1px solid black;
+}
+.boxone{
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+    color: white;
+}
+footer{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+.boxtwo{
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:425px){
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    h1{
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    footer{
+        text-align: center;
+    }
+}
+@media screen and (min-width:426px) and (max-width:1024px){
+    body{
+        width: 90%;
+    }
+}
+/*justify content = horizontal changes*/
+/*align items = vertical changes*/
+/*table of contents can only be linked using an id tag and not a class*/
