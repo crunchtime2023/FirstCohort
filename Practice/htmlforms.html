@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Forms</title>
+        <style>
+            #login{
+                text-align: center;
+            }
+            #section-one{
+                border-bottom: 1px solid green;
+                padding-bottom: 50px;
+            }
+            #section-two{
+                padding-top: 30px;
+                border-bottom: 1px solid green;
+                padding-bottom: 50px;
+            }
+            #section-three{
+                padding-top: 30px;
+                border-bottom: 1px solid green;
+                padding-bottom: 50px;
+            }
+            #section-four{
+                padding-top: 30px;
+                border-bottom: 1px solid green;
+                padding-bottom: 50px;
+            }
+            #section-five{
+                padding-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="section-one">
+            <h1 style="color: green; text-align: center;">HTML Forms</h1>
+            <h2 style="text-align: center;">Log in to system</h2>
+            <form id="login" action="">
+                <label for="email">Enter email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </form><br>
+            <input type="submit" value="enter" id="enter">
+        </section>
+        <section id="section-two">
+            <h2>Enter your age</h2>
+            <form id="age-groups">
+                <input type="radio" name="child" value="under18" id="first">Under 18<br>
+                <input type="radio" name="age" value="18-24" id="second">18-24<br>
+                <input type="radio" name="age" value="25-39" id="third">25-39<br>
+                <input type="radio" name="age" value="40-59" id="fourth">40-59<br>
+                <input type="radio" name="age" value="60+" id="fifth">60+
+            </form>
+        </section>
+        <section id="section-three">
+            <h2>How many cities have you lived in</h2>
+            <form>
+                <div>Choose all applicable:</div>
+                <input type="radio" name="city" value="London" id="one">London<br>
+                <input type="radio" name="city2" value="Birmingham" id="two">Birmingham<br>
+                <input type="radio" name="city3" value="Manchester" id="three">Manchester<br>
+                <input type="radio" name="city4" value="Liverpool" id="four">Liverpool<br>
+                <input type="radio" name="city5" value="Other" id="five">Other
+            </form>
+        </section>
+        <section id="section-four">
+            <h2>What is your ethnicity?</h2>
+            <label for="question">Please select <b>one</b>:</label>
+            <select name="question" id="question">
+                <option disabled selected value> -- select an option --</option>
+                <option value="q1">British</option>
+                <option value="q2">Irish</option>
+                <option value="q3">Carribean</option>
+                <option value="q4">Asian</option>
+                <option value="q5">African</option>
+                <option value="q6">European</option>
+                <option value="q7">Other</option>
+                <option value="q8">I'd prefer not to say</option>
+            </select>
+        </section>
+        <section id="section-five">
+            <h2>Do you have any disablities?</h2>
+            <select name="anotherquestion" id="anotherquestion">
+                <option disabled selected value> -- select an option --</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <p>If yes, please specify below:</p>
+            <textarea name="textarea" id="textarea" cols="35" rows="8" placeholder="Enter text here"></textarea><br><br>
+            <input type="submit" value="submit" id="submit">
+        </section>
+    </body>
+</html>
