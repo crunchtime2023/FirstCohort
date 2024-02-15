@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        body{
+            margin: 5px;
+            display: grid;
+            grid-template-columns: repeat(6);
+            grid-template-rows: repeat(4, minmax(175px, auto));
+            grid-gap: 5px;
+        }
+        header{
+            background-color: aqua;
+            padding: 30px;
+            grid-column: 1/6;
+            grid-row: 1/2;
+        }
+        main{
+            background-color: peru;
+            padding: 30px;
+            grid-column: 2/6;
+            grid-row: 2/4;
+        }
+        section{
+            background-color: greenyellow;
+            padding: 30px;
+            grid-column: 1/2;
+        }
+        aside{
+            background-color: violet;
+            padding: 30px;
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        footer{
+            background-color: gray;
+            padding: 30px;
+            grid-column: 1/6;
+            grid-row: 4/5;
+        }
+    </style>
+</head>
+    <body>
+        <header>Header</header>
+        <main>Main</main>
+        <section>Section</section>
+        <aside>Aside</aside>
+        <footer>Footer</footer>
+    </body>
+</html>
