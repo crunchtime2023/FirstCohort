@@ -12,6 +12,7 @@
             grid-template-columns: repeat(10);
             grid-template-rows: repeat(4);
             font-size: 20px;
+            font-family: 'raleway', sans-serif;
         }
         header{
             background-color: #001b2e;
@@ -46,6 +47,8 @@
             padding: 30px;
             grid-column: 1/9;
             grid-row: 2/4;
+            background-color: white;
+            margin: 45px;
         }
         span{
             font-size: larger;
@@ -63,8 +66,9 @@
         aside{
             padding: 30px;
             grid-column: 9/10;
-            grid-row: 2/4;
-            border-left: solid 2px silver;
+            grid-row: 2/3;
+            background-color: white;
+            margin: 45px;
         }
         aside ul{
             list-style-type: none;
@@ -103,6 +107,8 @@
                 display: grid;
                 grid-template-columns: repeat(1);
                 grid-template-rows: repeat(5);
+                font-size: 25px;
+                margin: 0;
             }
             header{
                 font-size: 1.8rem;
@@ -119,6 +125,10 @@
             }
             aside{
                 background-color: white;
+                padding: 30px;
+                margin: 30px;
+                font-size: larger;
+                border-left: none;
                 grid-column: 1/1;
                 grid-row: 3/4;
             }
@@ -127,8 +137,7 @@
                 grid-row: 4/5;
             }
             footer section{
-                display: flex;
-                flex-wrap: wrap;
+                display: block;
                 font-size: 1.4rem;
             }
             footer h2{
@@ -142,11 +151,31 @@
             }
         }
         @media screen and (min-width:432px) and (max-width:1024px){
+            body{
+                display: grid;
+                grid-template-columns: repeat(1);
+                grid-template-rows: repeat(5);
+            }
             header{
+                text-align: center;
+                grid-column: 1/1;
+                grid-row: 1/2;
                 font-size: 1.8rem;
+            }
+            main{
+                grid-column: 1/1;
+                grid-row: 2/3;
+            }
+            aside{
+                grid-column: 1/1;
+                grid-row: 3/4;
             }
             header img{
                 width: 15rem;
+            }
+            footer{
+                grid-column: 1/1;
+                grid-row: 4/5;
             }
             footer section{
                 display: flex;
@@ -167,7 +196,7 @@
 </head>
     <body>
         <header>
-            <img src="\Practice\Images\carlogo1.jpg">
+            <img src="C:\Users\abhai\Desktop\FirstCohort\Practice\Images\carlogo1.jpg">
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -181,8 +210,8 @@
         <main>
             <section>
                 <h2>Quick Facts Series - BMW Edition</h2>
-                <img src="\Practice\Images\BMW.img.jpg">
-                <p>Arguable the most famous German car company in the world, BMW is notorious for their speedy sports type cars and have a big base of customers worldwide.<br><br>
+                <img src="C:\Users\abhai\Desktop\FirstCohort\Practice\Images\BMW.jpg">
+                <p>Arguable the most famous German car company in the world, BMW is notorious for their speedy, sports type cars and have a big base of customers worldwide.<br><br>
                 This being said, many people do not know some simple facts about this famous company and will surprise even the most passionate of them, so here I share 8 important facts about BMW:</p>
             </section>
             <section>
