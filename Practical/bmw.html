@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facts About BMW</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #f2f2f2;
+            display: grid;
+            grid-template-columns: repeat(10);
+            grid-template-rows: repeat(4);
+            font-size: 20px;
+        }
+        header{
+            background-color: #001b2e;
+            color: silver;
+            grid-column: 1/10;
+            grid-row: 1/2;
+        }
+        header img{
+            width: 10%;
+            padding: 7px;
+        }
+        h1{
+            padding: 30px;
+        }
+        nav ul{
+            margin: 0;
+            padding: 14px;
+            display: flex;
+            list-style-type: none;
+        }
+        nav a{
+            color: white;
+            padding: 15px;
+        }
+        nav a:hover{
+            color: cornflowerblue;
+        }
+        a{
+            text-decoration: none;
+        }
+        main{
+            padding: 30px;
+            grid-column: 1/9;
+            grid-row: 2/4;
+        }
+        span{
+            font-size: larger;
+            color: blue;
+        }
+        p{
+            padding-bottom: 25px;
+        }
+        img{
+            width: 100%;
+        }
+        main h2{
+            color: blue;
+        }
+        aside{
+            padding: 30px;
+            grid-column: 9/10;
+            grid-row: 2/4;
+            border-left: solid 2px silver;
+        }
+        aside ul{
+            list-style-type: none;
+        }
+        aside a{
+            color: grey;
+        }
+        aside a:hover{
+            color: #001b2e;
+        }
+        footer{
+            padding: 30px;
+            grid-column: 1/10;
+            grid-row: 4/5;
+            background-color: #001b2e;
+            color: white;
+            font-size: smaller;
+        }
+        footer div{
+            padding: 15px;
+        }
+        footer li{
+            list-style-type: none;
+        }
+        footer a{
+            color: silver;
+        }
+        footer a:hover{
+            color: grey;
+        }
+        footer section{
+            display: flex;
+        }
+        @media screen and (max-width:431px){
+            body{
+                display: grid;
+                grid-template-columns: repeat(1);
+                grid-template-rows: repeat(5);
+            }
+            header{
+                font-size: 1.8rem;
+                text-align: center;
+                grid-column: 1/1;
+                grid-row: 1/2;
+            }
+            header img{
+                width: 10rem;
+            }
+            main{
+                grid-column: 1/1;
+                grid-row: 2/3;
+            }
+            aside{
+                background-color: white;
+                grid-column: 1/1;
+                grid-row: 3/4;
+            }
+            footer{
+                grid-column: 1/1;
+                grid-row: 4/5;
+            }
+            footer section{
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 1.4rem;
+            }
+            footer h2{
+                font-size: 1.6rem;
+            }
+            footer p{
+                font-size: 1.6rem;
+            }
+            footer form{
+                font-size: 1.9rem;
+            }
+        }
+        @media screen and (min-width:432px) and (max-width:1024px){
+            header{
+                font-size: 1.8rem;
+            }
+            header img{
+                width: 15rem;
+            }
+            footer section{
+                display: flex;
+                flex-wrap: wrap;
+                font-size: larger;
+            }
+            footer h2{
+                font-size: 1.6rem;
+            }
+            footer p{
+                font-size: 1.6rem;
+            }
+            footer form{
+                font-size: 1.9rem;
+            }
+        }
+    </style>
+</head>
+    <body>
+        <header>
+            <img src="\Practice\Images\carlogo1.jpg">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Quick Facts Series - BMW Edition</h2>
+                <img src="\Practice\Images\BMW.img.jpg">
+                <p>Arguable the most famous German car company in the world, BMW is notorious for their speedy sports type cars and have a big base of customers worldwide.<br><br>
+                This being said, many people do not know some simple facts about this famous company and will surprise even the most passionate of them, so here I share 8 important facts about BMW:</p>
+            </section>
+            <section>
+                <div>
+                    <h2>Origin of the Name</h2>
+                    <p>BMW stands for Bavarian Motor Works, or Bayerische Motoren Werke AG in German.</p>
+                </div>
+                <div>
+                    <h2>When It Was Founded</h2>
+                    <p>BMW was founded in 1916 in Munich, Germany.<br><br>
+                    The origins of BMW date back to an aircraft engine manufacturer called Rapp Motorenwerke, which was founded in 1913. In 1916, the Rapp company was reorganized and renamed to Bayerische Motoren Werke.<br><br>
+                    Initially, BMW was focused on manufacturing aircraft engines. It began producing motorcycles in 1923 and its first automobile, the BMW 3/15, was released in 1928.</p>
+                </div>
+                <div>
+                    <h2>Origins of the Logo</h2>
+                    <img src="https://www.designgravity.co.uk/blogs/wp-content/uploads/2023/05/BMW-logo-history-e1683044147525.jpg">
+                    <p>The now world-famous BMW emblem featuring the blue and white quartered circle dates back to 1917, just one year after the official founding of the company in 1916.<br><br>
+                    The origins of the BMW logo design are not entirely clear, but there are a few prevailing theories.<br><br>
+                    Of the theories include it originating from a spinning white propeller blade against the blue sky hinting at their early history as an aircraft engine manufacturer.<br><br>
+                    Other theories mention the Bavarian Free State colors, referencing BMW's origins in the German state of Bavaria.</p>
+                </div>
+                <div>
+                    <h2>Their First Car</h2>
+                    <img src="https://myautoworld.com/BMW/history/1929/3-15ps-da2/1930_BMW_3-15_PS_DA_2_Kabriolett_2_sitzig.jpg">
+                    <p>While not a sales success, the BMW 3/15 was significant as the company's first passenger car and helped establish BMW as an automaker.<br><br>
+                    It had a 4-cylinder engine producing 15 horsepower, hence the name "3/15" (3 referring to the number of doors, 15 to the horsepower).</p>
+                </div>
+                <div>
+                    <h2>Their Fastest Car</h2>
+                    <img src="https://www.passportbmw.com/blogs/846/wp-content/uploads/2021/03/SOC21-M5CS-LP-Performance-xDrive-Desktop.jpg.bmwimg.small_.jpg">
+                    <p>The BMW M5 CS, with a 4.4L twin-turbo V8 engine, has a horsepower of 627 and could go 0-60mph in 2.9 seconds, reaching top speeds of 190mph.</p>
+                </div>
+                <div>
+                    <h2>Their Most Expensive Car</h2>
+                    <img src="https://images.opumo.com/wordpress/wp-content/uploads/2023/10/IMG_0081-768x417.jpeg">
+                    <p>The most expensive BMW model is the 1956 BMW 507.<br><br>
+                    This vintage classic achieved the highest prices ever paid for a BMW automobile, at over $5 million.<br><br>
+                    Due to extreme rarity, only 252 BMW 507s were ever produced between 1956-1959 before it was discontinued due to low sales volumes. Surviving examples in good condition are exceptionally rare.</p>
+                </div>
+                <div>
+                    <h2>Their Electric Future</h2>
+                    <p>BMW is making a push to rapidly electrify its model lineup over the next decade, aiming to reduce emissions across its entire value chain and having a fully sustainable supply network.<br><br>
+                    They also see a goal of at least 50% BEV sales by 2030 to establish itself as a leader in premium electric mobility.</p>
+                </div>
+                <div>
+                    <h2>The Global Reach</h2>
+                    <p>BMW has grown into a truly global automaker with a significant presence and reach worldwide.<br><br>
+                    Here are some key points about BMW's extensive global operations and market reach:</p>
+                    <ul>
+                        <li>In 2021, BMW sold around 2.5 million cars across over 140 countries.</li>
+                        <li>BMW has over 30 production and assembly facilities across 15 countries including Germany, USA, Mexico, Brazil, China, India, South Africa and several European nations.</li>
+                        <li>BMW partners with over 12,000 suppliers across the globe.</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <section>
+                <h2>Recent posts:</h2>
+                <p>
+                    <a href="#">Simple ways to modify your car</a><br><br>
+                    <a href="#">Best life hacks for your vehicle</a><br><br>
+                    <a href="#">101 basics on car maintenance</a><br><br>
+                    <a href="#">How to keep your car healthy during this winter</a><br><br>
+                    <a href="#">Best cars to buy when budgeting</a><br><br>
+                    <a href="#">12 facts about Toyota</a>
+                </p>
+            </section>
+        </aside>
+        <footer>
+            <section>
+                <div>
+                    <h2>Information</h2>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </div>
+                <div>
+                    <h2>Follow Us</h2>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">X (formerly twitter)</a></li>
+                    <li><a href="#">Faceboox</a></li>
+                    <li><a href="#">Tiktok</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </div>
+                <div>
+                    <h2>Shopping</h2>
+                    <li><a href="#">Display</a></li>
+                    <li><a href="#">Auctions</a></li>
+                    <li><a href="#">Buy Now</a></li>
+                    <li><a href="#">Lease</a></li>
+                    <li><a href="#">Rent (new edition)</a></li>
+                </div>
+                <div>
+                    <h2>Useful Resources</h2>
+                    <li><a href="#">Car Maintenance 101 Article</a></li>
+                    <li><a href="#">Car Repair 101 Videos</a></li>
+                    <li><a href="#">Car Leasing Guide</a></li>
+                    <li><a href="#">Car Renting Guide</a></li>
+                    <li><a href="#">Used Car Checklist</a></li>
+                </div>
+            </section>
+            <div>
+                <h2>Sign up to our newsletter:</h2>
+                <p>Enter your email below to be signed up to our newsletter which gives you our latest updates such as new cars we have for sale, weekly blogs and also special offers we have.</p>
+                <form>
+                    <label>Enter here:</label>
+                    <input type="email" id="email" name="email">
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
